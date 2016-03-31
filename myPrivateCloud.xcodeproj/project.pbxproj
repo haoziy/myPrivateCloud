@@ -1,0 +1,1046 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050AEB0C1CAD0EB8007608D2 /* MRJSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050AEB0B1CAD0EB8007608D2 /* MRJSize.swift */; };
+		05A460871CACB40E00894AB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A460861CACB40E00894AB8 /* AppDelegate.swift */; };
+		05A460891CACB40E00894AB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A460881CACB40E00894AB8 /* ViewController.swift */; };
+		05A4608E1CACB40E00894AB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A4608D1CACB40E00894AB8 /* Assets.xcassets */; };
+		05A4609C1CACB40E00894AB8 /* myPrivateCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A4609B1CACB40E00894AB8 /* myPrivateCloudTests.swift */; };
+		05A460A71CACB40F00894AB8 /* myPrivateCloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A460A61CACB40F00894AB8 /* myPrivateCloudUITests.swift */; };
+		05A460B61CACB42900894AB8 /* File.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05A460B81CACB42900894AB8 /* File.strings */; };
+		05A87B2C1CACB7F400536D04 /* NSString+global.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B2B1CACB7F400536D04 /* NSString+global.m */; };
+		05A87B4D1CACBA0800536D04 /* HttpHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B4C1CACBA0800536D04 /* HttpHandler.m */; };
+		05A87B4F1CACBA4500536D04 /* languageFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B4E1CACBA4500536D04 /* languageFile.swift */; };
+		05A87B511CACBA9100536D04 /* MRJProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B501CACBA9100536D04 /* MRJProgressHUD.swift */; };
+		05A87B531CACBE1400536D04 /* storedInUserDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B521CACBE1400536D04 /* storedInUserDefaultKeys.swift */; };
+		05A87B561CACC1BD00536D04 /* SStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B551CACC1BD00536D04 /* SStoreManager.swift */; };
+		05A87B5A1CACC38B00536D04 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B591CACC38B00536D04 /* File.swift */; };
+		05A87B5C1CACC75D00536D04 /* HHomeMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B5B1CACC75D00536D04 /* HHomeMainViewController.swift */; };
+		05A87B611CACC84400536D04 /* MMainEntranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B601CACC84400536D04 /* MMainEntranceViewController.swift */; };
+		05A87B661CACCBFB00536D04 /* BaseViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B651CACCBFB00536D04 /* BaseViews.swift */; };
+		05A87B681CACCE3700536D04 /* AAboutMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B671CACCE3700536D04 /* AAboutMainViewController.swift */; };
+		05A87B6A1CACCE7C00536D04 /* RRoprtFomsMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B691CACCE7C00536D04 /* RRoprtFomsMainViewController.swift */; };
+		05A87B6C1CACCEEB00536D04 /* DDiscoveryMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B6B1CACCEEB00536D04 /* DDiscoveryMainViewController.swift */; };
+		05A87B711CACD11100536D04 /* HomeLocalizeFile.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05A87B731CACD11100536D04 /* HomeLocalizeFile.strings */; };
+		05A87B7F1CACD1BF00536D04 /* DiscoveryLocalizeFile.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05A87B811CACD1BF00536D04 /* DiscoveryLocalizeFile.strings */; };
+		05A87B851CACD1C800536D04 /* ReportFormsLocalizeFile.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05A87B871CACD1C800536D04 /* ReportFormsLocalizeFile.strings */; };
+		05A87B8B1CACD1CE00536D04 /* AboutMeLocalizeFile.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05A87B8D1CACD1CE00536D04 /* AboutMeLocalizeFile.strings */; };
+		05A87B921CACF39B00536D04 /* ImageNameFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B911CACF39B00536D04 /* ImageNameFile.swift */; };
+		05A87B941CACF3F900536D04 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B931CACF3F900536D04 /* BaseViewController.swift */; };
+		05A87B961CACFA7A00536D04 /* MRJColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B951CACFA7A00536D04 /* MRJColor.swift */; };
+		05A87B991CACFB7C00536D04 /* UIColor+mrjColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B981CACFB7C00536D04 /* UIColor+mrjColor.m */; };
+		05D230461CAD45730067C8AE /* Info.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05D230481CAD45730067C8AE /* Info.strings */; };
+		567170C55829B2939A654E98 /* libPods-myPrivateCloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E7B8DB5222D7338E2DD5DD /* libPods-myPrivateCloud.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05A460981CACB40E00894AB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05A4607B1CACB40E00894AB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05A460821CACB40E00894AB8;
+			remoteInfo = myPrivateCloud;
+		};
+		05A460A31CACB40F00894AB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05A4607B1CACB40E00894AB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05A460821CACB40E00894AB8;
+			remoteInfo = myPrivateCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050AEB0B1CAD0EB8007608D2 /* MRJSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MRJSize.swift; path = myPrivateCloud/MRJSize.swift; sourceTree = "<group>"; };
+		05A460831CACB40E00894AB8 /* myPrivateCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myPrivateCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05A460861CACB40E00894AB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05A460881CACB40E00894AB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05A4608D1CACB40E00894AB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05A460921CACB40E00894AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05A460971CACB40E00894AB8 /* myPrivateCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myPrivateCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05A4609B1CACB40E00894AB8 /* myPrivateCloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPrivateCloudTests.swift; sourceTree = "<group>"; };
+		05A4609D1CACB40E00894AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05A460A21CACB40F00894AB8 /* myPrivateCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myPrivateCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05A460A61CACB40F00894AB8 /* myPrivateCloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPrivateCloudUITests.swift; sourceTree = "<group>"; };
+		05A460A81CACB40F00894AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05A460B71CACB42900894AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/File.strings; sourceTree = "<group>"; };
+		05A460B91CACB42A00894AB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/File.strings; sourceTree = "<group>"; };
+		05A460BA1CACB43400894AB8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/File.strings"; sourceTree = "<group>"; };
+		05A460BB1CACB43900894AB8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/File.strings"; sourceTree = "<group>"; };
+		05A87B291CACB7F400536D04 /* myPrivateCloud-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myPrivateCloud-Bridging-Header.h"; sourceTree = "<group>"; };
+		05A87B2A1CACB7F400536D04 /* NSString+global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+global.h"; path = "myPrivateCloud/NSString+global.h"; sourceTree = "<group>"; };
+		05A87B2B1CACB7F400536D04 /* NSString+global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+global.m"; path = "myPrivateCloud/NSString+global.m"; sourceTree = "<group>"; };
+		05A87B4B1CACBA0800536D04 /* HttpHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpHandler.h; path = myPrivateCloud/HttpHandler.h; sourceTree = "<group>"; };
+		05A87B4C1CACBA0800536D04 /* HttpHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpHandler.m; path = myPrivateCloud/HttpHandler.m; sourceTree = "<group>"; };
+		05A87B4E1CACBA4500536D04 /* languageFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = languageFile.swift; path = myPrivateCloud/languageFile.swift; sourceTree = "<group>"; };
+		05A87B501CACBA9100536D04 /* MRJProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MRJProgressHUD.swift; path = myPrivateCloud/MRJProgressHUD.swift; sourceTree = "<group>"; };
+		05A87B521CACBE1400536D04 /* storedInUserDefaultKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = storedInUserDefaultKeys.swift; path = myPrivateCloud/storedInUserDefaultKeys.swift; sourceTree = "<group>"; };
+		05A87B551CACC1BD00536D04 /* SStoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SStoreManager.swift; path = myPrivateCloud/SStoreManager.swift; sourceTree = "<group>"; };
+		05A87B591CACC38B00536D04 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = File.swift; path = myPrivateCloud/File.swift; sourceTree = "<group>"; };
+		05A87B5B1CACC75D00536D04 /* HHomeMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HHomeMainViewController.swift; path = myPrivateCloud/HHomeMainViewController.swift; sourceTree = "<group>"; };
+		05A87B601CACC84400536D04 /* MMainEntranceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MMainEntranceViewController.swift; path = myPrivateCloud/MMainEntranceViewController.swift; sourceTree = "<group>"; };
+		05A87B651CACCBFB00536D04 /* BaseViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViews.swift; path = myPrivateCloud/BaseViews.swift; sourceTree = "<group>"; };
+		05A87B671CACCE3700536D04 /* AAboutMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AAboutMainViewController.swift; path = myPrivateCloud/AAboutMainViewController.swift; sourceTree = "<group>"; };
+		05A87B691CACCE7C00536D04 /* RRoprtFomsMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RRoprtFomsMainViewController.swift; path = myPrivateCloud/RRoprtFomsMainViewController.swift; sourceTree = "<group>"; };
+		05A87B6B1CACCEEB00536D04 /* DDiscoveryMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DDiscoveryMainViewController.swift; path = myPrivateCloud/DDiscoveryMainViewController.swift; sourceTree = "<group>"; };
+		05A87B721CACD11100536D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/HomeLocalizeFile.strings; sourceTree = "<group>"; };
+		05A87B741CACD11200536D04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HomeLocalizeFile.strings; sourceTree = "<group>"; };
+		05A87B751CACD11300536D04 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/HomeLocalizeFile.strings"; sourceTree = "<group>"; };
+		05A87B761CACD11400536D04 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/HomeLocalizeFile.strings"; sourceTree = "<group>"; };
+		05A87B801CACD1BF00536D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/DiscoveryLocalizeFile.strings; sourceTree = "<group>"; };
+		05A87B821CACD1C000536D04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DiscoveryLocalizeFile.strings; sourceTree = "<group>"; };
+		05A87B831CACD1C100536D04 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DiscoveryLocalizeFile.strings"; sourceTree = "<group>"; };
+		05A87B841CACD1C200536D04 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/DiscoveryLocalizeFile.strings"; sourceTree = "<group>"; };
+		05A87B861CACD1C800536D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/ReportFormsLocalizeFile.strings; sourceTree = "<group>"; };
+		05A87B881CACD1C900536D04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ReportFormsLocalizeFile.strings; sourceTree = "<group>"; };
+		05A87B891CACD1C900536D04 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ReportFormsLocalizeFile.strings"; sourceTree = "<group>"; };
+		05A87B8A1CACD1CA00536D04 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/ReportFormsLocalizeFile.strings"; sourceTree = "<group>"; };
+		05A87B8C1CACD1CE00536D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/AboutMeLocalizeFile.strings; sourceTree = "<group>"; };
+		05A87B8E1CACD1CF00536D04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AboutMeLocalizeFile.strings; sourceTree = "<group>"; };
+		05A87B8F1CACD1D000536D04 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/AboutMeLocalizeFile.strings"; sourceTree = "<group>"; };
+		05A87B901CACD1D100536D04 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/AboutMeLocalizeFile.strings"; sourceTree = "<group>"; };
+		05A87B911CACF39B00536D04 /* ImageNameFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageNameFile.swift; path = myPrivateCloud/ImageNameFile.swift; sourceTree = "<group>"; };
+		05A87B931CACF3F900536D04 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = myPrivateCloud/BaseViewController.swift; sourceTree = "<group>"; };
+		05A87B951CACFA7A00536D04 /* MRJColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MRJColor.swift; path = myPrivateCloud/MRJColor.swift; sourceTree = "<group>"; };
+		05A87B971CACFB7C00536D04 /* UIColor+mrjColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+mrjColor.h"; path = "myPrivateCloud/UIColor+mrjColor.h"; sourceTree = "<group>"; };
+		05A87B981CACFB7C00536D04 /* UIColor+mrjColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+mrjColor.m"; path = "myPrivateCloud/UIColor+mrjColor.m"; sourceTree = "<group>"; };
+		05D230471CAD45730067C8AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Info.strings; sourceTree = "<group>"; };
+		05D230491CAD459F0067C8AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Info.strings; sourceTree = "<group>"; };
+		05D2304A1CAD45C20067C8AE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Info.strings"; sourceTree = "<group>"; };
+		05D2304B1CAD46050067C8AE /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Info.strings"; sourceTree = "<group>"; };
+		66E7B8DB5222D7338E2DD5DD /* libPods-myPrivateCloud.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myPrivateCloud.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F8B36873B69B92A718CFB4 /* Pods-myPrivateCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPrivateCloud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myPrivateCloud/Pods-myPrivateCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		B54BE2ED07D61DC6A976280E /* Pods-myPrivateCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPrivateCloud.release.xcconfig"; path = "Pods/Target Support Files/Pods-myPrivateCloud/Pods-myPrivateCloud.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05A460801CACB40E00894AB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567170C55829B2939A654E98 /* libPods-myPrivateCloud.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05A460941CACB40E00894AB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05A4609F1CACB40F00894AB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05A4607A1CACB40E00894AB8 = {
+			isa = PBXGroup;
+			children = (
+				05A87B471CACB96000536D04 /* baseClass */,
+				05A87B311CACB88400536D04 /* main */,
+				05A87B281CACB7C900536D04 /* utils */,
+				05A460851CACB40E00894AB8 /* myPrivateCloud */,
+				05A4609A1CACB40E00894AB8 /* myPrivateCloudTests */,
+				05A460A51CACB40F00894AB8 /* myPrivateCloudUITests */,
+				05A460841CACB40E00894AB8 /* Products */,
+				EA6CB72A0E4CCD0C0D743705 /* Pods */,
+				AF065E2C76607BEA18BC7365 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		05A460841CACB40E00894AB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05A460831CACB40E00894AB8 /* myPrivateCloud.app */,
+				05A460971CACB40E00894AB8 /* myPrivateCloudTests.xctest */,
+				05A460A21CACB40F00894AB8 /* myPrivateCloudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05A460851CACB40E00894AB8 /* myPrivateCloud */ = {
+			isa = PBXGroup;
+			children = (
+				05A460861CACB40E00894AB8 /* AppDelegate.swift */,
+				05A460881CACB40E00894AB8 /* ViewController.swift */,
+				05A4608D1CACB40E00894AB8 /* Assets.xcassets */,
+				05A460921CACB40E00894AB8 /* Info.plist */,
+				05A460B81CACB42900894AB8 /* File.strings */,
+			);
+			path = myPrivateCloud;
+			sourceTree = "<group>";
+		};
+		05A4609A1CACB40E00894AB8 /* myPrivateCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				05A4609B1CACB40E00894AB8 /* myPrivateCloudTests.swift */,
+				05A4609D1CACB40E00894AB8 /* Info.plist */,
+			);
+			path = myPrivateCloudTests;
+			sourceTree = "<group>";
+		};
+		05A460A51CACB40F00894AB8 /* myPrivateCloudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05A460A61CACB40F00894AB8 /* myPrivateCloudUITests.swift */,
+				05A460A81CACB40F00894AB8 /* Info.plist */,
+			);
+			path = myPrivateCloudUITests;
+			sourceTree = "<group>";
+		};
+		05A87B281CACB7C900536D04 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B5E1CACC7CF00536D04 /* appColor */,
+				05A87B5D1CACC7C700536D04 /* appSize */,
+				05A87B301CACB86D00536D04 /* progressHUD */,
+				05A87B2F1CACB85600536D04 /* storeManager */,
+				05A87B2E1CACB83500536D04 /* httpHandler */,
+				05A87B2D1CACB81E00536D04 /* globalLanguage */,
+				05A87B291CACB7F400536D04 /* myPrivateCloud-Bridging-Header.h */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		05A87B2D1CACB81E00536D04 /* globalLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B911CACF39B00536D04 /* ImageNameFile.swift */,
+				05A87B4E1CACBA4500536D04 /* languageFile.swift */,
+				05A87B2A1CACB7F400536D04 /* NSString+global.h */,
+				05A87B2B1CACB7F400536D04 /* NSString+global.m */,
+				05A87B731CACD11100536D04 /* HomeLocalizeFile.strings */,
+				05A87B811CACD1BF00536D04 /* DiscoveryLocalizeFile.strings */,
+				05A87B871CACD1C800536D04 /* ReportFormsLocalizeFile.strings */,
+				05A87B8D1CACD1CE00536D04 /* AboutMeLocalizeFile.strings */,
+				05D230481CAD45730067C8AE /* Info.strings */,
+			);
+			name = globalLanguage;
+			sourceTree = "<group>";
+		};
+		05A87B2E1CACB83500536D04 /* httpHandler */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B4B1CACBA0800536D04 /* HttpHandler.h */,
+				05A87B4C1CACBA0800536D04 /* HttpHandler.m */,
+			);
+			name = httpHandler;
+			sourceTree = "<group>";
+		};
+		05A87B2F1CACB85600536D04 /* storeManager */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B521CACBE1400536D04 /* storedInUserDefaultKeys.swift */,
+				05A87B541CACC1A900536D04 /* StoreModel */,
+			);
+			name = storeManager;
+			sourceTree = "<group>";
+		};
+		05A87B301CACB86D00536D04 /* progressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B501CACBA9100536D04 /* MRJProgressHUD.swift */,
+			);
+			name = progressHUD;
+			sourceTree = "<group>";
+		};
+		05A87B311CACB88400536D04 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B431CACB94000536D04 /* aboutMe */,
+				05A87B3F1CACB92600536D04 /* forms */,
+				05A87B3B1CACB90A00536D04 /* discovery */,
+				05A87B371CACB8CC00536D04 /* home */,
+				05A87B321CACB89000536D04 /* login&regist */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		05A87B321CACB89000536D04 /* login&regist */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B361CACB8AC00536D04 /* Controller */,
+				05A87B351CACB8A700536D04 /* View */,
+				05A87B331CACB89A00536D04 /* Model */,
+			);
+			name = "login&regist";
+			sourceTree = "<group>";
+		};
+		05A87B331CACB89A00536D04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		05A87B351CACB8A700536D04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		05A87B361CACB8AC00536D04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B601CACC84400536D04 /* MMainEntranceViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		05A87B371CACB8CC00536D04 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B3A1CACB8E400536D04 /* Controller */,
+				05A87B391CACB8DA00536D04 /* View */,
+				05A87B381CACB8D500536D04 /* Model */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		05A87B381CACB8D500536D04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		05A87B391CACB8DA00536D04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		05A87B3A1CACB8E400536D04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B5B1CACC75D00536D04 /* HHomeMainViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		05A87B3B1CACB90A00536D04 /* discovery */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B3E1CACB91F00536D04 /* Controller */,
+				05A87B3D1CACB91900536D04 /* View */,
+				05A87B3C1CACB91200536D04 /* Model */,
+			);
+			name = discovery;
+			sourceTree = "<group>";
+		};
+		05A87B3C1CACB91200536D04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		05A87B3D1CACB91900536D04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		05A87B3E1CACB91F00536D04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B6B1CACCEEB00536D04 /* DDiscoveryMainViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		05A87B3F1CACB92600536D04 /* forms */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B421CACB93A00536D04 /* Controller */,
+				05A87B411CACB93400536D04 /* Model */,
+				05A87B401CACB92F00536D04 /* View */,
+			);
+			name = forms;
+			sourceTree = "<group>";
+		};
+		05A87B401CACB92F00536D04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		05A87B411CACB93400536D04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		05A87B421CACB93A00536D04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B691CACCE7C00536D04 /* RRoprtFomsMainViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		05A87B431CACB94000536D04 /* aboutMe */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B461CACB95000536D04 /* Controller */,
+				05A87B451CACB94C00536D04 /* View */,
+				05A87B441CACB94600536D04 /* Model */,
+			);
+			name = aboutMe;
+			sourceTree = "<group>";
+		};
+		05A87B441CACB94600536D04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		05A87B451CACB94C00536D04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		05A87B461CACB95000536D04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B671CACCE3700536D04 /* AAboutMainViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		05A87B471CACB96000536D04 /* baseClass */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B631CACCBC700536D04 /* View */,
+				05A87B641CACCBD200536D04 /* Controller */,
+				05A87B621CACCBBF00536D04 /* Model */,
+			);
+			name = baseClass;
+			sourceTree = "<group>";
+		};
+		05A87B541CACC1A900536D04 /* StoreModel */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B581CACC37800536D04 /* Contrloller */,
+				05A87B571CACC37200536D04 /* Model */,
+			);
+			name = StoreModel;
+			sourceTree = "<group>";
+		};
+		05A87B571CACC37200536D04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B591CACC38B00536D04 /* File.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		05A87B581CACC37800536D04 /* Contrloller */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B551CACC1BD00536D04 /* SStoreManager.swift */,
+			);
+			name = Contrloller;
+			sourceTree = "<group>";
+		};
+		05A87B5D1CACC7C700536D04 /* appSize */ = {
+			isa = PBXGroup;
+			children = (
+				050AEB0B1CAD0EB8007608D2 /* MRJSize.swift */,
+			);
+			name = appSize;
+			sourceTree = "<group>";
+		};
+		05A87B5E1CACC7CF00536D04 /* appColor */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B951CACFA7A00536D04 /* MRJColor.swift */,
+				05A87B971CACFB7C00536D04 /* UIColor+mrjColor.h */,
+				05A87B981CACFB7C00536D04 /* UIColor+mrjColor.m */,
+			);
+			name = appColor;
+			sourceTree = "<group>";
+		};
+		05A87B621CACCBBF00536D04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		05A87B631CACCBC700536D04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B651CACCBFB00536D04 /* BaseViews.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		05A87B641CACCBD200536D04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				05A87B931CACF3F900536D04 /* BaseViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AF065E2C76607BEA18BC7365 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66E7B8DB5222D7338E2DD5DD /* libPods-myPrivateCloud.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA6CB72A0E4CCD0C0D743705 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1F8B36873B69B92A718CFB4 /* Pods-myPrivateCloud.debug.xcconfig */,
+				B54BE2ED07D61DC6A976280E /* Pods-myPrivateCloud.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05A460821CACB40E00894AB8 /* myPrivateCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05A460AB1CACB40F00894AB8 /* Build configuration list for PBXNativeTarget "myPrivateCloud" */;
+			buildPhases = (
+				F0080757F1F596B39C1A85A3 /* Check Pods Manifest.lock */,
+				05A4607F1CACB40E00894AB8 /* Sources */,
+				05A460801CACB40E00894AB8 /* Frameworks */,
+				05A460811CACB40E00894AB8 /* Resources */,
+				141CC38FEC57D28B0BC7E29A /* Embed Pods Frameworks */,
+				66FF65847B537B0AC00E100B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myPrivateCloud;
+			productName = myPrivateCloud;
+			productReference = 05A460831CACB40E00894AB8 /* myPrivateCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05A460961CACB40E00894AB8 /* myPrivateCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05A460AE1CACB40F00894AB8 /* Build configuration list for PBXNativeTarget "myPrivateCloudTests" */;
+			buildPhases = (
+				05A460931CACB40E00894AB8 /* Sources */,
+				05A460941CACB40E00894AB8 /* Frameworks */,
+				05A460951CACB40E00894AB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05A460991CACB40E00894AB8 /* PBXTargetDependency */,
+			);
+			name = myPrivateCloudTests;
+			productName = myPrivateCloudTests;
+			productReference = 05A460971CACB40E00894AB8 /* myPrivateCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05A460A11CACB40F00894AB8 /* myPrivateCloudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05A460B11CACB40F00894AB8 /* Build configuration list for PBXNativeTarget "myPrivateCloudUITests" */;
+			buildPhases = (
+				05A4609E1CACB40F00894AB8 /* Sources */,
+				05A4609F1CACB40F00894AB8 /* Frameworks */,
+				05A460A01CACB40F00894AB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05A460A41CACB40F00894AB8 /* PBXTargetDependency */,
+			);
+			name = myPrivateCloudUITests;
+			productName = myPrivateCloudUITests;
+			productReference = 05A460A21CACB40F00894AB8 /* myPrivateCloudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05A4607B1CACB40E00894AB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = laomi;
+				TargetAttributes = {
+					05A460821CACB40E00894AB8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					05A460961CACB40E00894AB8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 05A460821CACB40E00894AB8;
+					};
+					05A460A11CACB40F00894AB8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 05A460821CACB40E00894AB8;
+					};
+				};
+			};
+			buildConfigurationList = 05A4607E1CACB40E00894AB8 /* Build configuration list for PBXProject "myPrivateCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 05A4607A1CACB40E00894AB8;
+			productRefGroup = 05A460841CACB40E00894AB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05A460821CACB40E00894AB8 /* myPrivateCloud */,
+				05A460961CACB40E00894AB8 /* myPrivateCloudTests */,
+				05A460A11CACB40F00894AB8 /* myPrivateCloudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05A460811CACB40E00894AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A460B61CACB42900894AB8 /* File.strings in Resources */,
+				05A87B8B1CACD1CE00536D04 /* AboutMeLocalizeFile.strings in Resources */,
+				05D230461CAD45730067C8AE /* Info.strings in Resources */,
+				05A87B711CACD11100536D04 /* HomeLocalizeFile.strings in Resources */,
+				05A87B7F1CACD1BF00536D04 /* DiscoveryLocalizeFile.strings in Resources */,
+				05A87B851CACD1C800536D04 /* ReportFormsLocalizeFile.strings in Resources */,
+				05A4608E1CACB40E00894AB8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05A460951CACB40E00894AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05A460A01CACB40F00894AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		141CC38FEC57D28B0BC7E29A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myPrivateCloud/Pods-myPrivateCloud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66FF65847B537B0AC00E100B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myPrivateCloud/Pods-myPrivateCloud-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0080757F1F596B39C1A85A3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05A4607F1CACB40E00894AB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A87B611CACC84400536D04 /* MMainEntranceViewController.swift in Sources */,
+				05A87B991CACFB7C00536D04 /* UIColor+mrjColor.m in Sources */,
+				05A87B6C1CACCEEB00536D04 /* DDiscoveryMainViewController.swift in Sources */,
+				05A460891CACB40E00894AB8 /* ViewController.swift in Sources */,
+				05A87B961CACFA7A00536D04 /* MRJColor.swift in Sources */,
+				05A87B5C1CACC75D00536D04 /* HHomeMainViewController.swift in Sources */,
+				05A460871CACB40E00894AB8 /* AppDelegate.swift in Sources */,
+				05A87B2C1CACB7F400536D04 /* NSString+global.m in Sources */,
+				05A87B4D1CACBA0800536D04 /* HttpHandler.m in Sources */,
+				05A87B941CACF3F900536D04 /* BaseViewController.swift in Sources */,
+				05A87B5A1CACC38B00536D04 /* File.swift in Sources */,
+				05A87B531CACBE1400536D04 /* storedInUserDefaultKeys.swift in Sources */,
+				05A87B511CACBA9100536D04 /* MRJProgressHUD.swift in Sources */,
+				05A87B661CACCBFB00536D04 /* BaseViews.swift in Sources */,
+				05A87B561CACC1BD00536D04 /* SStoreManager.swift in Sources */,
+				05A87B4F1CACBA4500536D04 /* languageFile.swift in Sources */,
+				050AEB0C1CAD0EB8007608D2 /* MRJSize.swift in Sources */,
+				05A87B921CACF39B00536D04 /* ImageNameFile.swift in Sources */,
+				05A87B6A1CACCE7C00536D04 /* RRoprtFomsMainViewController.swift in Sources */,
+				05A87B681CACCE3700536D04 /* AAboutMainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05A460931CACB40E00894AB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A4609C1CACB40E00894AB8 /* myPrivateCloudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05A4609E1CACB40F00894AB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A460A71CACB40F00894AB8 /* myPrivateCloudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05A460991CACB40E00894AB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05A460821CACB40E00894AB8 /* myPrivateCloud */;
+			targetProxy = 05A460981CACB40E00894AB8 /* PBXContainerItemProxy */;
+		};
+		05A460A41CACB40F00894AB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05A460821CACB40E00894AB8 /* myPrivateCloud */;
+			targetProxy = 05A460A31CACB40F00894AB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05A460B81CACB42900894AB8 /* File.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05A460B71CACB42900894AB8 /* Base */,
+				05A460B91CACB42A00894AB8 /* en */,
+				05A460BA1CACB43400894AB8 /* zh-Hans */,
+				05A460BB1CACB43900894AB8 /* zh-Hant */,
+			);
+			name = File.strings;
+			sourceTree = "<group>";
+		};
+		05A87B731CACD11100536D04 /* HomeLocalizeFile.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05A87B721CACD11100536D04 /* Base */,
+				05A87B741CACD11200536D04 /* en */,
+				05A87B751CACD11300536D04 /* zh-Hans */,
+				05A87B761CACD11400536D04 /* zh-Hant */,
+			);
+			name = HomeLocalizeFile.strings;
+			sourceTree = "<group>";
+		};
+		05A87B811CACD1BF00536D04 /* DiscoveryLocalizeFile.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05A87B801CACD1BF00536D04 /* Base */,
+				05A87B821CACD1C000536D04 /* en */,
+				05A87B831CACD1C100536D04 /* zh-Hans */,
+				05A87B841CACD1C200536D04 /* zh-Hant */,
+			);
+			name = DiscoveryLocalizeFile.strings;
+			sourceTree = "<group>";
+		};
+		05A87B871CACD1C800536D04 /* ReportFormsLocalizeFile.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05A87B861CACD1C800536D04 /* Base */,
+				05A87B881CACD1C900536D04 /* en */,
+				05A87B891CACD1C900536D04 /* zh-Hans */,
+				05A87B8A1CACD1CA00536D04 /* zh-Hant */,
+			);
+			name = ReportFormsLocalizeFile.strings;
+			sourceTree = "<group>";
+		};
+		05A87B8D1CACD1CE00536D04 /* AboutMeLocalizeFile.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05A87B8C1CACD1CE00536D04 /* Base */,
+				05A87B8E1CACD1CF00536D04 /* en */,
+				05A87B8F1CACD1D000536D04 /* zh-Hans */,
+				05A87B901CACD1D100536D04 /* zh-Hant */,
+			);
+			name = AboutMeLocalizeFile.strings;
+			sourceTree = "<group>";
+		};
+		05D230481CAD45730067C8AE /* Info.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05D230471CAD45730067C8AE /* Base */,
+				05D230491CAD459F0067C8AE /* en */,
+				05D2304A1CAD45C20067C8AE /* zh-Hans */,
+				05D2304B1CAD46050067C8AE /* zh-Hant */,
+			);
+			name = Info.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05A460A91CACB40F00894AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05A460AA1CACB40F00894AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05A460AC1CACB40F00894AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1F8B36873B69B92A718CFB4 /* Pods-myPrivateCloud.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = myPrivateCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MRJ.myPrivateCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "myPrivateCloud-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05A460AD1CACB40F00894AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54BE2ED07D61DC6A976280E /* Pods-myPrivateCloud.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = myPrivateCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MRJ.myPrivateCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "myPrivateCloud-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05A460AF1CACB40F00894AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = myPrivateCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MRJ.myPrivateCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myPrivateCloud.app/myPrivateCloud";
+			};
+			name = Debug;
+		};
+		05A460B01CACB40F00894AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = myPrivateCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MRJ.myPrivateCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myPrivateCloud.app/myPrivateCloud";
+			};
+			name = Release;
+		};
+		05A460B21CACB40F00894AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = myPrivateCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MRJ.myPrivateCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = myPrivateCloud;
+			};
+			name = Debug;
+		};
+		05A460B31CACB40F00894AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = myPrivateCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MRJ.myPrivateCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = myPrivateCloud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05A4607E1CACB40E00894AB8 /* Build configuration list for PBXProject "myPrivateCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A460A91CACB40F00894AB8 /* Debug */,
+				05A460AA1CACB40F00894AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05A460AB1CACB40F00894AB8 /* Build configuration list for PBXNativeTarget "myPrivateCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A460AC1CACB40F00894AB8 /* Debug */,
+				05A460AD1CACB40F00894AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05A460AE1CACB40F00894AB8 /* Build configuration list for PBXNativeTarget "myPrivateCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A460AF1CACB40F00894AB8 /* Debug */,
+				05A460B01CACB40F00894AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05A460B11CACB40F00894AB8 /* Build configuration list for PBXNativeTarget "myPrivateCloudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A460B21CACB40F00894AB8 /* Debug */,
+				05A460B31CACB40F00894AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05A4607B1CACB40E00894AB8 /* Project object */;
+}

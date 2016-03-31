@@ -1,0 +1,10 @@
+//
+//  File.swift
+//  myPrivateCloud
+//
+//  Created by ZEROLEE on 16/3/31.
+//  Copyright © 2016年 laomi. All rights reserved.
+//
+
+import Foundation
+
