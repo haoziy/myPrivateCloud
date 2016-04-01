@@ -14,6 +14,7 @@
 		05A4609C1CACB40E00894AB8 /* myPrivateCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A4609B1CACB40E00894AB8 /* myPrivateCloudTests.swift */; };
 		05A460A71CACB40F00894AB8 /* myPrivateCloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A460A61CACB40F00894AB8 /* myPrivateCloudUITests.swift */; };
 		05A460B61CACB42900894AB8 /* File.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05A460B81CACB42900894AB8 /* File.strings */; };
+		05A54E6E1CAE0476007ED1ED /* UINavigationController+safetyPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A54E6D1CAE0476007ED1ED /* UINavigationController+safetyPush.m */; };
 		05A87B2C1CACB7F400536D04 /* NSString+global.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B2B1CACB7F400536D04 /* NSString+global.m */; };
 		05A87B4D1CACBA0800536D04 /* HttpHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B4C1CACBA0800536D04 /* HttpHandler.m */; };
 		05A87B4F1CACBA4500536D04 /* languageFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A87B4E1CACBA4500536D04 /* languageFile.swift */; };
@@ -73,6 +74,8 @@
 		05A460B91CACB42A00894AB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/File.strings; sourceTree = "<group>"; };
 		05A460BA1CACB43400894AB8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/File.strings"; sourceTree = "<group>"; };
 		05A460BB1CACB43900894AB8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/File.strings"; sourceTree = "<group>"; };
+		05A54E6C1CAE0476007ED1ED /* UINavigationController+safetyPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+safetyPush.h"; path = "myPrivateCloud/UINavigationController+safetyPush.h"; sourceTree = "<group>"; };
+		05A54E6D1CAE0476007ED1ED /* UINavigationController+safetyPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+safetyPush.m"; path = "myPrivateCloud/UINavigationController+safetyPush.m"; sourceTree = "<group>"; };
 		05A87B291CACB7F400536D04 /* myPrivateCloud-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myPrivateCloud-Bridging-Header.h"; sourceTree = "<group>"; };
 		05A87B2A1CACB7F400536D04 /* NSString+global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+global.h"; path = "myPrivateCloud/NSString+global.h"; sourceTree = "<group>"; };
 		05A87B2B1CACB7F400536D04 /* NSString+global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+global.m"; path = "myPrivateCloud/NSString+global.m"; sourceTree = "<group>"; };
@@ -200,9 +203,19 @@
 			path = myPrivateCloudUITests;
 			sourceTree = "<group>";
 		};
+		05A54E6B1CAE035D007ED1ED /* safe */ = {
+			isa = PBXGroup;
+			children = (
+				05A54E6C1CAE0476007ED1ED /* UINavigationController+safetyPush.h */,
+				05A54E6D1CAE0476007ED1ED /* UINavigationController+safetyPush.m */,
+			);
+			name = safe;
+			sourceTree = "<group>";
+		};
 		05A87B281CACB7C900536D04 /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				05A54E6B1CAE035D007ED1ED /* safe */,
 				05A87B5E1CACC7CF00536D04 /* appColor */,
 				05A87B5D1CACC7C700536D04 /* appSize */,
 				05A87B301CACB86D00536D04 /* progressHUD */,
@@ -728,6 +741,7 @@
 				050AEB0C1CAD0EB8007608D2 /* MRJSize.swift in Sources */,
 				05A87B921CACF39B00536D04 /* ImageNameFile.swift in Sources */,
 				05A87B6A1CACCE7C00536D04 /* RRoprtFomsMainViewController.swift in Sources */,
+				05A54E6E1CAE0476007ED1ED /* UINavigationController+safetyPush.m in Sources */,
 				05A87B681CACCE3700536D04 /* AAboutMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,10 +10,20 @@ import Foundation
 
 class MRJProgressHUD
 {
-//    static func show (message:String)->Void
-//    {
-//        SVProgressHUD .showProgress(<#T##progress: Float##Float#>, status: <#T##String!#>)
-//    }
+    static func showprogressValueAndmessage(value:float_t,message:String)->Void
+    {
+        SVProgressHUD.showProgress(value, status: message)
+    }
+    
+    static func showProgresssValue(value:float_t)->Void
+    {
+        SVProgressHUD.showProgress(value)
+    }
+    
+    static func showProgressMessage(message:String)->Void
+    {
+        SVProgressHUD.showWithStatus(message)
+    }
     static func showErrorMessage(message:String)->Void
     {
         SVProgressHUD .showErrorWithStatus(message)

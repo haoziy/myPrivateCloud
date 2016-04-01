@@ -17,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         window = UIWindow()
+        SVProgressHUD.setForegroundColor(UIColor.blackColor())
+        SVProgressHUD.setDefaultMaskType
         //检查是不是第一次安装
         if check_ckeckFirstInstall() {
             //第一次安装
